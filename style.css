@@ -23,6 +23,7 @@ html,body{
 	margin:0 auto;
 }
 .center-main-name{
+	font-size:32px;
 	color:#FFFFFF;
 	text-align: center;
 }
@@ -30,5 +31,6 @@ html,body{
 .center-main-text{
 	color:#FFFFFF;
     text-align: center;
-
 	}
+
+
