@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 html,body{
-	
+	height:100vh;
 	font-family:'筑紫A丸ゴシック','Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
 }
 
@@ -13,14 +13,23 @@ html,body{
 .main{
 	width:100%;
 	height:100vh;
-	background-color: red;
+	background-image:url(image/dekikata.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 .center-main{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 	width: 700px;
 	height: 250px;
 	background-color: gold;
-	margin:0 auto;
+	
+   
 }
 .center-main-name{
 	font-size:32px;
@@ -33,4 +42,10 @@ html,body{
     text-align: center;
 	}
 
+a{
+	color:white;
+}
 
+i{
+	color: white;
+}
