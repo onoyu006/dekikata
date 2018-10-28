@@ -17,9 +17,7 @@ html,body{
 }
 
 
-.center-main:hover{
-	background-color: rgb(242,216,0);
-}
+
 .center-main{
 	position: absolute;
     top: 0;
@@ -29,9 +27,14 @@ html,body{
     margin: auto;
 	width:700px;
 	height:450px;
-	background-color: rgb(66,66,66,0.65);
+	background-color: rgb(66,66,66,0.6);
    border-radius: 30px;
 }
+.center-main:hover{
+	background-color: rgb(242,216,0);
+}
+
+
 
 
 .center-main-name{
@@ -120,6 +123,15 @@ html,body{
 
  }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    _::-webkit-full-page-media, _:future, :root 
+     .center-main{
+        background-color:rgb(120,120,120);
+    }
+    .center-main:hover{
+	background-color: rgb(242,216,0);
+    }
+}
 
 
 
